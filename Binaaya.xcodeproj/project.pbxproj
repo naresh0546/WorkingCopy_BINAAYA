@@ -54,6 +54,7 @@
 		18F256B91F04D5D700718FE0 /* ApprovalTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F256B81F04D5D700718FE0 /* ApprovalTableViewController.m */; };
 		18F256BC1F04D8D600718FE0 /* ApprovalDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F256BB1F04D8D600718FE0 /* ApprovalDetailsViewController.m */; };
 		DF6C87A01F0A4119001263DA /* SampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6C879F1F0A4119001263DA /* SampleViewController.m */; };
+		DF6C87A31F0A4501001263DA /* NewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6C87A21F0A4501001263DA /* NewViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -170,6 +171,8 @@
 		18F256BB1F04D8D600718FE0 /* ApprovalDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApprovalDetailsViewController.m; sourceTree = "<group>"; };
 		DF6C879E1F0A4119001263DA /* SampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleViewController.h; sourceTree = "<group>"; };
 		DF6C879F1F0A4119001263DA /* SampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleViewController.m; sourceTree = "<group>"; };
+		DF6C87A11F0A4501001263DA /* NewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewViewController.h; sourceTree = "<group>"; };
+		DF6C87A21F0A4501001263DA /* NewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -332,6 +335,8 @@
 				18953A751EEFA764003C56D7 /* LaunchScreen.storyboard */,
 				DF6C879E1F0A4119001263DA /* SampleViewController.h */,
 				DF6C879F1F0A4119001263DA /* SampleViewController.m */,
+				DF6C87A11F0A4501001263DA /* NewViewController.h */,
+				DF6C87A21F0A4501001263DA /* NewViewController.m */,
 			);
 			name = DashBoard;
 			sourceTree = "<group>";
@@ -563,6 +568,7 @@
 				18953A6F1EEFA764003C56D7 /* ViewController.m in Sources */,
 				18F1DE991F0612BB001A74D1 /* PostWallViewController.m in Sources */,
 				18B57A451EF1064100372BF3 /* UIImage+REFrostedViewController.m in Sources */,
+				DF6C87A31F0A4501001263DA /* NewViewController.m in Sources */,
 				18F1DEA01F06139F001A74D1 /* CommunityTableViewController.m in Sources */,
 				18F256B31F04C0B400718FE0 /* CommunicationTableViewController.m in Sources */,
 				DF6C87A01F0A4119001263DA /* SampleViewController.m in Sources */,
