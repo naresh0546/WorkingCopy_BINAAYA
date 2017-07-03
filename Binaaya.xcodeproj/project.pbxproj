@@ -53,6 +53,7 @@
 		18F256B61F04CD4000718FE0 /* ComposeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F256B51F04CD4000718FE0 /* ComposeViewController.m */; };
 		18F256B91F04D5D700718FE0 /* ApprovalTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F256B81F04D5D700718FE0 /* ApprovalTableViewController.m */; };
 		18F256BC1F04D8D600718FE0 /* ApprovalDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F256BB1F04D8D600718FE0 /* ApprovalDetailsViewController.m */; };
+		DF6C87A01F0A4119001263DA /* SampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6C879F1F0A4119001263DA /* SampleViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -167,6 +168,8 @@
 		18F256B81F04D5D700718FE0 /* ApprovalTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApprovalTableViewController.m; sourceTree = "<group>"; };
 		18F256BA1F04D8D600718FE0 /* ApprovalDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApprovalDetailsViewController.h; sourceTree = "<group>"; };
 		18F256BB1F04D8D600718FE0 /* ApprovalDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApprovalDetailsViewController.m; sourceTree = "<group>"; };
+		DF6C879E1F0A4119001263DA /* SampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleViewController.h; sourceTree = "<group>"; };
+		DF6C879F1F0A4119001263DA /* SampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -327,6 +330,8 @@
 				18953A701EEFA764003C56D7 /* Main.storyboard */,
 				18953A731EEFA764003C56D7 /* Assets.xcassets */,
 				18953A751EEFA764003C56D7 /* LaunchScreen.storyboard */,
+				DF6C879E1F0A4119001263DA /* SampleViewController.h */,
+				DF6C879F1F0A4119001263DA /* SampleViewController.m */,
 			);
 			name = DashBoard;
 			sourceTree = "<group>";
@@ -560,6 +565,7 @@
 				18B57A451EF1064100372BF3 /* UIImage+REFrostedViewController.m in Sources */,
 				18F1DEA01F06139F001A74D1 /* CommunityTableViewController.m in Sources */,
 				18F256B31F04C0B400718FE0 /* CommunicationTableViewController.m in Sources */,
+				DF6C87A01F0A4119001263DA /* SampleViewController.m in Sources */,
 				18E789571EFBF15500EBF7B4 /* MGSpotyView.m in Sources */,
 				180E123E1EF7CFCE00696584 /* CalendarViewController.m in Sources */,
 				18F1DE9A1F0612BB001A74D1 /* WallTableViewController.m in Sources */,
