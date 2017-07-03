@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "DEMOMenuViewController.h"
+#import "UIViewController+REFrostedViewController.h"
 
 @interface ViewController ()
 
@@ -16,12 +18,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
-}
 
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+}
+- (IBAction)showMenu:(id)sender {
+    [self.view endEditing:YES];
+    [self.frostedViewController.view endEditing:YES];
+    [self.frostedViewController presentMenuViewController];
 }
 
 @end
